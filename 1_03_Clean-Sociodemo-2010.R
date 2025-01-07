@@ -1,3 +1,6 @@
+# BOOM - NEW CHANGES!
+# a second change for fun
+
 # Clean 2010 Socio-demographic Data
 # Env Exposures & Segregation 1940 to 2010
 # Jenni A. Shearston 
