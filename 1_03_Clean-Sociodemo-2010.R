@@ -60,7 +60,7 @@ seg_data_path <- paste0(project.folder, 'data/county_seg_data/')
 edByRace2010 <- read_csv(paste0(sociodemo_data_path, 
                                 'edBySexByRaceEth_2010_county.csv')) %>% 
   janitor::clean_names() %>%
-  dplyr::select(gisjoin, year, state, statea, county, countya, name_e,
+  dplyr::select(gisjoin, year, statea, county,
                 j16e001, j16e003, j16e008,
                 j2ce001, j2ce004, j2ce005, j2ce006, j2ce009, j2ce010, j2ce011)
 # 0d.ii Load employment by race data
